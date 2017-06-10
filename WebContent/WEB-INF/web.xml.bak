@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>VacationManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+
+<servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+ 
+    <servlet>
+        <servlet-name>ApplyLeave</servlet-name>
+        <servlet-class>ApplyLeave</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ApplyLeave</servlet-name>
+        <url-pattern>/ApplyLeave</url-pattern>
+    </servlet-mapping>
+ 
+    <servlet>
+        <servlet-name>LeaveRequest</servlet-name>
+        <servlet-class>LeaveRequest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LeaveRequest</servlet-name>
+        <url-pattern>/LeaveRequest</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+    <servlet-name>EditProfile</servlet-name>
+    <servlet-class>EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    <servlet-name>PopulateTable</servlet-name>
+    <servlet-class>PopulateTable</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    <servlet-name>PopulateTable</servlet-name>
+    <url-pattern>/PopulateTable/*</url-pattern>
+	</servlet-mapping>
+ 
+</web-app>

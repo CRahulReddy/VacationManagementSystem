@@ -1,0 +1,191 @@
+body { margin: 0px; padding: 0px; background-color: #c9cacc; font-family: "lucida grande", Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #666666; line-height: 16px; text-align: center; }
+a img { border:0; }
+.clear { height: 0; font-size: 11px; margin: 0; padding: 0; line-height: 0; clear: both; }
+.textsmall { font-family: "lucida grande", Arial; font-size: 11px; }
+blockquote {
+    font-size:16px; 
+	font-family: Calibri;
+    padding:18px 20px 1px 15px;     
+    margin-bottom:30px;
+    background:#f2f1f6; 
+}	
+/* Header */
+#header { height:90px; width:100%; background-color: #c9cacc;} 
+#header .container { width: 1020px; margin: 0px auto 0px auto; text-align: left; }
+#header .container .logo { float: left; padding-top: 0px; }
+#header .container .login { padding-top: 30px; float: right; display: inline; }
+#header .container .text { display:inline; float:left; width: 120px; text-align: right; margin-top: 5px; margin-right: 10px; font-family: Trebuchet MS, Lucida Grande, Tahoma; font-size: 12px; color: #d5d5d5; }
+#header .container .logincontainer { display:inline; float:left; width: 80px; text-align: left; font-family: Lucida Grande, Tahoma; font-size: 15px; font-weight: normal; text-transform:uppercase; }
+#header .container .loginbutton { display: block; width: 68px; height: 21px; text-align: center; padding-top: 4px; color: #d5732e; text-decoration: none; }
+#header .container .loginbutton:hover { display: block; background-image : url(images/login-on.gif) }
+
+.content {
+ position:relative;
+}
+/* Menu */
+#menu { height:47px; width:100%; background-color: #4488AB  } 
+#menu .container { width: 1020px; padding: 0px; margin: 0px auto 0px auto; font-family: Trebuchet MS, Lucida Grande, Tahoma; font-size: 13px; font-weight: bold; text-shadow: 0 1px 0 #666666; }
+#menu .navLink { margin: 6px 0px 0px 0px; padding: 4px; float: left; width: 105px; display: block; height: 27px; color: #d6e8f2; line-height: 27px; text-align: center; }
+#menu .navLink a { color: #d6e8f2; text-decoration: none; }
+#menu .navLink a:hover { display: block; background-color: #69A1BE; -moz-border-radius: 4px; border-radius: 4px; color: #ffffff; text-decoration: none;  } 
+#menu .navLink_on { margin: 10px 0px 0px 0px; padding: 0px; float: left; width: 105px; display: block; height: 27px; color: #ffffff; line-height: 27px; background-color: #69A1BE; -moz-border-radius: 4px; border-radius: 4px; } 
+#pageheader .container { width: 1020px; margin: 0px auto 0px auto; text-align: left; padding-top: 10px;  }
+#pageheader h1 { font-family: Trebuchet MS,Lucida Grande, Tahoma; font-size: 35px; line-height: 50px; font-weight: normal; color: #4487AA; margin: 0px; padding: 0px; }
+#pageheader h2 { font-family: Trebuchet MS,Lucida Grande, Tahoma; font-size: 24px; line-height: 35px; font-style:oblique;font-weight: normal; color: #4487AA; margin: 0px; padding: 0px; }
+#pageheader h3 { font-family: Georgia; font-size: 24px; line-height: 35px; font-style:oblique;font-weight: normal; color: #4487AA; margin: 0px; padding: 0px; }
+
+#mainbody { width:100%; background-color:#ffffff; }
+#mainbody .container { width: 1020px; margin: 0px auto 0px auto; text-align: left; background-color: #ffffff; padding-top: 20px; }
+#mainbody h1 { font-family: Roboto-English-Embedded, Roboto; line-height: 32px; font-weight: bold;  font-size: 20px; color: #d5732e; margin-top: 5px; margin-bottom: 15px; } 
+
+.colorful-separator  {
+ margin-top: 55px;
+}
+.colorful-separator .green {
+ border-top: 3px solid #39BE75;
+ width: 50%;
+ float:left;
+}
+a.button {
+  border: none;
+  border-bottom: 3px solid #448b3b;
+  font-family: Roboto-English-Embedded, Roboto;font-size: 20px;
+  line-height: 20px;
+  padding-top: 0.8%;
+  padding-bottom: 0.7%;
+  background: #51B160;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  width: 18%;
+  position: absolute;
+  top: 0px;
+  margin: 19.6% 0 0 0;
+  right: 20%;
+  text-align:center;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background: #52BB63;
+}
+.workflow {
+	margin: 70px 0px 20px 0px;
+}
+.workflow-pic-bg {
+	background: #f2f5f7;
+	height: 250px;
+}
+.workflow .first-step {
+	float: left;
+    width: 28%;
+    margin: 6% 0% 2% 1%;
+    text-align: center;
+	font-size: 25px;
+	height: 40px;
+}
+
+.workflow .first-step div {
+	background: url(../img/workflow-number.png) no-repeat top left;
+	padding-left: 60px;
+	height: 40px;
+	display: inline-block;
+	padding-top: 9px;
+}
+
+.workflow .second-step {
+	float: left;
+    width: 27%;
+    margin: 6% 8% 2% 8%;
+    text-align: center;
+	font-size: 25px;
+	height: 40px;
+}
+
+.workflow .second-step div {
+	background: url(../img/workflow-number.png) no-repeat 0px -130px;
+	padding-left: 60px;
+	height: 40px;
+	display: inline-block;
+	padding-top: 9px;
+}
+
+.workflow .third-step {
+	float: left;
+    width: 28%;
+    margin: 6% 0% 2% 0%;
+    text-align: center;
+	font-size: 25px;
+	height: 40px;
+}
+
+.workflow .third-step div {
+	background: url(../img/workflow-number.png) no-repeat 0px -260px;
+	padding-left: 60px;
+	height: 40px;
+	display: inline-block;
+	padding-top: 9px;
+}
+.workflow .first-step-text {
+	float: left;
+    width: 28%;
+    margin: 3% 0% 2% 1%;
+    text-align: center;
+	font-size: 16px;
+	font-family: Roboto-English-Embedded Light, Roboto Light;
+	line-height: 26px;
+}
+
+.workflow .second-step-text {
+	float: left;
+    width: 27%;
+    margin: 3% 8% 2% 8%;
+    text-align: center;
+	font-size: 16px;
+	font-family: Roboto-English-Embedded Light, Roboto Light;
+	line-height: 26px;
+}
+
+.workflow .third-step-text {
+	float: left;
+    width: 28%;
+    margin: 3% 0% 2% 0%;
+    text-align: center;
+	font-size: 16px;
+	font-family: Roboto-English-Embedded Light, Roboto Light;
+	line-height: 26px;
+}
+.benefits {
+ font-family: Roboto-English-Embedded Light, Roboto Light;
+ font-size: 18px;font-weight:bold;
+ line-height: 26px;width: 1020px; margin: 0px auto 0px auto;
+}
+feature {
+float:left;
+width: 100%;
+padding-left: 20%;padding-right: 11%;
+text-align:center;color: #545e68;
+}
+.workflow.content-container-home {
+	margin: 0 auto;
+    max-width: 1170px;
+    min-width: 990px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-title {
+	font-family: Roboto-English-Embedded Light, Roboto Light;
+	padding: 10px 0 15px 0;
+	margin:0;
+	font-size: 42px;
+	color: #d17a23;
+	text-align: center;
+	font-weight:normal;
+}
+/* Footer */
+#footer { height:25px; width:100%; }
+#footer .container { width:1020px; margin: 0px auto 0px auto; padding-top: 18px; text-align:center; }
+#footer #copyright { font-family: Lucida Grande, Tahoma; font-size: 12px; color: #ffffff; margin-top: 15px; }
+#footer #copyright a { color:#ffffff; font-weight:bold; }
